@@ -1,4 +1,6 @@
 # README
+Projet en CARTON qui ressemble a rien :') dsl cette semaine je suis à côté de la plaque 
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
