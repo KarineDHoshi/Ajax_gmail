@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  status: 
+  default: MyString
+  'false': MyString
+  deadline: 2022-06-02 15:13:22
+  category: 
+  index: MyString
+  'true': MyString
+
+two:
+  title: MyString
+  status: 
+  default: MyString
+  'false': MyString
+  deadline: 2022-06-02 15:13:22
+  category: 
+  index: MyString
+  'true': MyString

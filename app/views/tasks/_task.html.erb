@@ -1,0 +1,6 @@
+%#= creating a partial that displays the content of a newly-created task : %>
+<li><%= task.title %>, to read:<%= task.deadline.strftime('%D') %>
+  <div>
+    <%= link_to "Erase Task", task_path(task.id), class: "fa-solid fa-trash-can-arrow-up", method: "delete", remote: true %> <!-- we can replace link_to by button_to if we want, what matters is to specify the method: "delete" -->
+  </div>
+</li>

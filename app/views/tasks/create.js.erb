@@ -1,0 +1,9 @@
+<%# 
+To double-check that AJAX is working -> 
+alert("le fichier JS est exécuté!");
+%>
+
+<%# Select the Category in which to add the new task : %>
+document.getElementById("task-list-<%= @category.title %>").insertAdjacentHTML("beforeend", "<%= j render 'task', task: @task %>");
+
+

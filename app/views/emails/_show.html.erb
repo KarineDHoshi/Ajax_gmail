@@ -1,0 +1,9 @@
+div class="container col py-2 mt-1 border bg-white" id="email-delete">
+  <p class="lead"><strong>Object: </strong><%= @email.object %></p>
+  <hr>
+  <p class="lead"><strong>Body: </strong></p>
+  <%= @email.body %>
+  <br><br>
+  <%= link_to "Supprimer", email_path(email), :class => "btn btn-primary", :method => 'DELETE', remote: true %>
+  <%= link_to "Marquer comme non-lu", email_path(email), :method => 'PUT', class: "btn btn-light", remote: true %>
+</div> 

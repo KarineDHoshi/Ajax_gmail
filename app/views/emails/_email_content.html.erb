@@ -1,0 +1,18 @@
+<h2><%= @email_hash['email'].object %></h2>
+<p class="content"><%= @email_hash['email'].body %></p>
+<br />
+<%= link_to(
+      content_tag(
+        :i,
+        " Supprimer",
+        class: 'fa fa-trash-o'
+      ),
+      email_path(@email_hash['email']),
+      method: :delete,
+      data: {
+        confirm: 'Are you sure?'
+      },
+      class: "btn btn-danger",
+      remote: true
+    )
+%>
